@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Udemy Selenium Course\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {}
+    "D:\\Udemy Selenium Course\\SeleniumRepo\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {}
   },
   "projects": {
-    "D:\\Udemy Selenium Course\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {
+    "D:\\Udemy Selenium Course\\SeleniumRepo\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Udemy Selenium Course\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
+        "projectUniqueName": "D:\\Udemy Selenium Course\\SeleniumRepo\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
         "projectName": "SeleniumCSharpNetCore",
-        "projectPath": "D:\\Udemy Selenium Course\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
+        "projectPath": "D:\\Udemy Selenium Course\\SeleniumRepo\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
         "packagesPath": "C:\\Users\\shyam.bhattarai\\.nuget\\packages\\",
-        "outputPath": "D:\\Udemy Selenium Course\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\obj\\",
+        "outputPath": "D:\\Udemy Selenium Course\\SeleniumRepo\\SeleniumCSharpNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shyam.bhattarai\\AppData\\Roaming\\NuGet\\NuGet.Config",

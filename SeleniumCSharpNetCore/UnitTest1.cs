@@ -10,24 +10,32 @@ namespace SeleniumCSharpNetCore
         [SetUp]
         public void Setup()
         {
+            ChromeOptions options = new ChromeOptions();
+            options.AddArguments("--headless", "--start-maximized");
             Console.WriteLine("Setup");
-            Driver = new ChromeDriver(@"D:\Udemy Selenium Course");
+            Driver = new ChromeDriver(@"D:\Udemy Selenium Course", options);
         }
 
         [Test]
         public void Test1()
         {
-            Driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com/");
-            Console.WriteLine("Setup");
+            try
+            {
+                Driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com/");
+                Console.WriteLine("Setup");
 
-            Driver.FindElement(By.Id("ContentPlaceHolder1_Meal")).SendKeys("Tomato");
-            Driver.FindElement(By.XPath(
-                "//input[@name='ctl00$ContentPlaceHolder1$ChildMeal1']/following-sibling::div[text()='Lettuce']")).Click();
+                Driver.FindElement(By.Id("ContentPlaceHolder1_Meal")).SendKeys("Tomato");
+                /*Driver.FindElement(By.XPath(
+                    "//input[@name='ctl00$ContentPlaceHolder1$ChildMeal1']/following-sibling::div[text()='Lettuce']")).Click();*/
 
-            
-            CustomControl.ComboBox("ContentPlaceHolder1_AllMealsCombo", "Almond");
+                CustomControl.ComboBox("ContentPlaceHolder1_AllMealsCombo", "Almond");
+            }
+            catch (Exception e)
+            {
+                Driver.Quit();
+                Assert.Fail($"Test is failing due to this : {e}");
+            }
            
-            Assert.Pass();
         }
     }
 }

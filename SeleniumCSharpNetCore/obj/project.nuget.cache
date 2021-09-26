@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rmFpvbaSq9jtUkLKuI+8UwUDf0hUVon7BV3VWenLe7bLJhFOHTplIxHz2UsBrBvWOOBo0NYAQNdWiVyFx1LmEA==",
+  "dgSpecHash": "K9MnQEBH9qZkF65iyQKf0g/8nmlRSTSDwpIo7c6PHmqjfgBlSTtPPehK5Acccn1XiexTQ3B88NouWcK64YcvHA==",
   "success": true,
-  "projectFilePath": "D:\\Udemy Selenium Course\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
+  "projectFilePath": "D:\\Udemy Selenium Course\\SeleniumRepo\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shyam.bhattarai\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\shyam.bhattarai\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
