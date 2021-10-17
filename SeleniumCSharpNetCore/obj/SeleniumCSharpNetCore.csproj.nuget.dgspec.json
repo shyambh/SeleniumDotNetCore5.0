@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Udemy Selenium Course\\SeleniumRepo\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {}
+    "E:\\repos\\SeleniumDotNetCore5.0\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {}
   },
   "projects": {
-    "D:\\Udemy Selenium Course\\SeleniumRepo\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {
+    "E:\\repos\\SeleniumDotNetCore5.0\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Udemy Selenium Course\\SeleniumRepo\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
+        "projectUniqueName": "E:\\repos\\SeleniumDotNetCore5.0\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
         "projectName": "SeleniumCSharpNetCore",
-        "projectPath": "D:\\Udemy Selenium Course\\SeleniumRepo\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
-        "packagesPath": "C:\\Users\\shyam.bhattarai\\.nuget\\packages\\",
-        "outputPath": "D:\\Udemy Selenium Course\\SeleniumRepo\\SeleniumCSharpNetCore\\obj\\",
+        "projectPath": "E:\\repos\\SeleniumDotNetCore5.0\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\repos\\SeleniumDotNetCore5.0\\SeleniumCSharpNetCore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\shyam.bhattarai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,6 +59,10 @@
               "target": "Package",
               "version": "[3.141.0, )"
             },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.12.1, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.0.2, )"
@@ -76,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

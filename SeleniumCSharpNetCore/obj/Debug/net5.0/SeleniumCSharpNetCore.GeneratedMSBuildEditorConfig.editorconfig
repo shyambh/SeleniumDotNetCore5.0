@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = SeleniumCSharpNetCore
-build_property.ProjectDir = D:\Udemy Selenium Course\SeleniumRepo\SeleniumCSharpNetCore\
+build_property.ProjectDir = E:\repos\SeleniumDotNetCore5.0\SeleniumCSharpNetCore\

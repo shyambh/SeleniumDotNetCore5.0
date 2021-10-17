@@ -1,7 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=341f6cec_002D8b76_002D459a_002Db3f5_002Da7df03a42ce0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::0363F3F9-B80F-4384-B757-5DB5D54EA5D8::net5.0::SeleniumCSharpNetCore.Tests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0363F3F9-B80F-4384-B757-5DB5D54EA5D8::.NETCoreApp,Version=v5.0::SeleniumCSharpNetCore.Tests.Test1&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/HangingTestRunnerResponse/@EntryValue">KillProcess</s:String>
